@@ -1,4 +1,5 @@
 
+// class work:
 // // let userone= {
 // //     name: "Sara",
 // //     last: "likaount",
@@ -26,6 +27,9 @@
 // //     }
 // // });
 // // }
+
+
+
 
 
 // // 1:
