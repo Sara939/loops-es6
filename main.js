@@ -98,34 +98,38 @@
 // // } 
 // // }
 
-// // 6:
-// let myobjarray= [{
-//     name:"s",
-//     last:"l",
-//     age:"30",
-//     email: "skdk@gmail.com"
-// }, newobj= {
-//     name:"a",
-//     last:"v",
-//     age:"40",
-//     email: "skdk@gmail.com"
-// }, newobj= {
-//     name:"syu",
-//     last:"k",
-//     age:"20",
-//     email: "skdk@gmail.com"
-// }, newobj= {
-//     name:"sfd",
-//     last:"ffl",
-//     age:"20",
-//     email: "skdk@gmail.com"
-// }];
+// 6:
+let myobjarray= [{
+    name:"s",
+    last:"l",
+    age:"30",
+    email: "skdk@gmail.com"
+},{
+    name:"a",
+    last:"v",
+    age:"40",
+    email: "skdk@gmail.com"
+},{
+    name:"syu",
+    last:"k",
+    age:"20",
+    email: "skdk@gmail.com"
+},{
+    name:"sfd",
+    last:"ffl",
+    age:"20",
+    email: "skdk@gmail.com"
+}];
 
-// myobjarray.forEach(element => {
-//     for (let key in element) {   
-//         mytable.innerHTML+=`<td>${key} : </td><td>${element[key]}</td>`;
-//     }
-// }
-// );
 
+
+myobjarray.forEach(element => {
+    let counter= 0;
+    mytable.innerHTML+=`<tr id= "mytr+counter"> </tr>`;
+    counter++;
+    for (let key in element) {   
+        mytr.innerHTML+=`<td>${key} : </td><td>${element[key]}</td>`;
+    }
+}
+);
 
